@@ -18,7 +18,7 @@ class VexTab {
 			return;
 		}
 
-		$vextab_url = 'https://raw.githubusercontent.com/0xfe/vextab/master/releases/vextab-div.js';
+		$vextab_url = 'https://rawgit.com/yxonic/vextab/master/releases/vextab-div.js';
 
 		wp_enqueue_script( 'vextab', $vextab_url, false, 'master', false );
 	}
